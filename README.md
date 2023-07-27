@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # MyAngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
@@ -29,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # internship-angular
 >>>>>>> 3e34c22036d9203b9c80e7f8432cf861b495b8e1
+=======
+# internship-angular
+>>>>>>> b6d86eb05566e04146cd4a79f1569700dd7e5317
