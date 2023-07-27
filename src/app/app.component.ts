@@ -10,16 +10,15 @@ export class AppComponent {
   passwordStrength: string = '';
 
   calculatePasswordStrength() {
-    // Implement your password strength calculation logic here
-    // For example, you can define different conditions to determine the strength
+    
     if (!this.password) {
-      this.passwordStrength = ''; // Empty password, no strength
+      this.passwordStrength = ''; 
     } else if (this.password.length < 6) {
-      this.passwordStrength = 'easy'; // Password with less than 6 characters
+      this.passwordStrength = 'easy'; 
     } else if (this.password.length < 10) {
-      this.passwordStrength = 'medium'; // Password with 6 to 9 characters
+      this.passwordStrength = 'medium'; 
     } else {
-      this.passwordStrength = 'strong'; // Password with 10 or more characters
+      this.passwordStrength = 'strong'; 
     }
   }
 }
